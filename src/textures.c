@@ -1,7 +1,8 @@
 #include "textures.h"
 #include <stdio.h>
 
-static const char*	textureFileNames[NUM_TEXTURES] =
+upng_t* textures[NUM_TEXTURES];
+static const char* textureFileNames[NUM_TEXTURES] =
 {
 	"./images/redbrick.png",		// [0]
 	"./images/purplestone.png",		// [1]
@@ -19,7 +20,7 @@ static const char*	textureFileNames[NUM_TEXTURES] =
 	"./images/armor.png"			// [13]
 };
 
-void	loadTextures(void)
+void loadTextures(void)
 {
 	for (int i = 0; i < NUM_TEXTURES; i++)
 	{
@@ -46,7 +47,7 @@ void	loadTextures(void)
 
 }
 
-void	freeTextures(void)
+void freeTextures(void)
 {
 	for (int i = 0; i < NUM_TEXTURES; i++)
 	{
