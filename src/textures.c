@@ -5,11 +5,11 @@ upng_t* textures[NUM_TEXTURES];
 static const char* textureFileNames[NUM_TEXTURES] =
 {
 	"./images/redbrick.png",		// [0]
-	"./images/purplestone.png",		// [1]
+	"./images/patterned_cobblestone_02.png",// [1]
 	"./images/mossystone.png",		// [2]
 	"./images/graystone.png",		// [3]
 	"./images/colorstone.png",		// [4]
-	"./images/bluestone.png",		// [5]
+	"./images/gravel_embedded_concrete.png",// [5]
 	"./images/wood.png",			// [6]
 	"./images/eagle.png",			// [7]
 	"./images/pikuma.png",			// [8]
